@@ -76,9 +76,9 @@ p {
     font-family: 'Roboto', sans-serif;
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    left: 30px;
+    position:fixed;
+    top: 0px;
+    float: none;
     z-index: 30;
     cursor: pointer;
 }
@@ -96,4 +96,24 @@ p {
 
 .links:hover {
     background-color: cadetblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+.article:hover{
+    background-color: azure;
+}
+#contact{
+    background-color: deepskyblue
+}
+#contact iframe{
+    width:100%
+        
+}
+.contact1 h3{
+   display: inline;
+}
+.contact1 a{
+    color: white;
+    text-shadow: none;
 }
